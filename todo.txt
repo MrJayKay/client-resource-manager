@@ -1,10 +1,10 @@
 To Do List
 
-DONE - create virtual environment
+#DONE - create virtual environment
 - install django
 - base pages / templates
-DONE    - create app for pages
-    - create a base template
+#DONE    - create app for pages
+#DONE    - create a base template
     - create front pages
     - create about page
 - authentication
