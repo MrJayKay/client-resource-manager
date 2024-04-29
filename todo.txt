@@ -1,13 +1,17 @@
 To Do List
 
 #DONE - create virtual environment
-- install django
-- base pages / templates
+#DONE - install django
+#DONE - base pages / templates
 #DONE    - create app for pages
 #DONE    - create a base template
-    - create front pages
-    - create about page
+#DONE    - create front pages
+#DONE    - create about page
 - authentication
+#DONE    - create database models foruser profiles
+    - create sign up
+    - create log in
+    - create log out
 - dashboard
 - create new leads
 - chenge and delete leads
