@@ -7,12 +7,12 @@ To Do List
 #DONE    - create a base template
 #DONE    - create front pages
 #DONE    - create about page
-- authentication
+#DONE - authentication
 #DONE    - create database models foruser profiles
-    - create sign up
-    - create log in
-    - create log out
-- dashboard
+#DONE    - create sign up
+#DONE    - create log in
+#DONE    - create log out
+#DONE - dashboard
 - create new leads
 - chenge and delete leads
 - convert leads to clients
