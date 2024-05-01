@@ -14,8 +14,8 @@ To Do List
 #DONE    - create log out
 #DONE - dashboard
 - create new leads
-    - create app
-    - set up database models
+#DONE    - create app
+#DONE    - set up database models
     - views and forms for leads
     - list of leads
     - detials for leads
