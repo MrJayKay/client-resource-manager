@@ -1,0 +1,11 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Leads{% endblock %}
+
+{% block content %}
+<div class="px-6 py-6">
+    <h1 class="mb-4 text-xl">Leads</h1>
+
+    <a href="{% url 'add_lead' %}" class="inline-block py-4 px-6 rounded-xl bg-teal-600 text-white ">Add lead</a>
+</div>
+{% endblock %}

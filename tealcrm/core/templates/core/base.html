@@ -18,11 +18,11 @@
             <div class="space-x-3">
                 <a href="{% url 'about' %}" class="text-white">About</a>
                 {% if request.user.is_authenticated %}
-                    <form action="{% url 'logout' %}" method="post">
+                    <form action="{% url 'logout' %}" method="post" class="inline-block">
                         {% csrf_token %}
                         <button type="submit" class="py-4 px-6 rounded-xl bg-red-600 text-white ">Log Out</button>
                     </form>
-                    <a href="{% url 'add_lead' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Add lead</a>
+                    <a href="{% url 'leads_list' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Leads</a>
                     <a href="{% url 'dashboard' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Dashboard</a>
                     {% else %}
                     <a href="{% url 'login' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Log in</a>
