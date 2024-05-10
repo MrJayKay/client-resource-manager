@@ -15,10 +15,10 @@
     </div>
 
     {% for lead in leads %}
-        <div>
-            <p>{{ lead.name }}</p>
-            <p>{{ lead.priority }}</p>
-            <p>{{ lead.status }}</p>
+        <div class="flex justify-between">
+            <p class="px-2 py-2 w-full">{{ lead.name }}</p>
+            <p class="px-2 py-2 w-full">{{ lead.priority }}</p>
+            <p class="px-2 py-2 w-full">{{ lead.status }}</p>
         </div>
     {% endfor %}
 </div>
