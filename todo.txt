@@ -17,7 +17,7 @@ To Do List
 #DONE    - create app
 #DONE    - set up database models
 #DONE    - views and forms for leads
-    - list of leads
+#DONE    - list of leads
     - detials for leads
 - chenge and delete leads
 - convert leads to clients
