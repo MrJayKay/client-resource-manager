@@ -13,12 +13,12 @@ To Do List
 #DONE    - create log in
 #DONE    - create log out
 #DONE - dashboard
-- create new leads
+#DONE - create new leads
 #DONE    - create app
 #DONE    - set up database models
 #DONE    - views and forms for leads
 #DONE    - list of leads
-    - detials for leads
+#DONE    - detials for leads
 - chenge and delete leads
 - convert leads to clients
 - create and delete clients
