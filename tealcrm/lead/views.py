@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 
@@ -19,6 +20,15 @@ def leads_detail(request, pk):
     return render(request, 'lead/leads_detail.html', {
         'lead': lead
     })
+
+@login_required
+def leads_delete(request,pk):
+    lead = get_object_or_404(Lead,created_by=request.user, pk=pk)
+    lead.delete()
+
+    messages.success(request, 'The lead was sucssesfully deleted.')
+
+    return redirect('leads_list')
 
 @login_required
 def add_lead(request):
