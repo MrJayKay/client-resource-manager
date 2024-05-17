@@ -26,7 +26,7 @@ def leads_delete(request,pk):
     lead = get_object_or_404(Lead,created_by=request.user, pk=pk)
     lead.delete()
 
-    messages.success(request, 'The lead was sucssesfully deleted.')
+    messages.success(request, 'The lead was successfully deleted.')
 
     return redirect('leads_list')
 
@@ -39,6 +39,8 @@ def add_lead(request):
             lead = form.save(commit=False)
             lead.created_by = request.user
             lead.save()
+
+            messages.success(request, 'The lead was successfully created.')
 
             return redirect('dashboard')
     
