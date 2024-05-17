@@ -42,7 +42,7 @@ def add_lead(request):
 
             messages.success(request, 'The lead was successfully created.')
 
-            return redirect('dashboard')
+            return redirect('leads_list')
     
     else:
         form = AddLeadForm()
