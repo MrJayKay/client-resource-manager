@@ -19,7 +19,7 @@ To Do List
 #DONE    - views and forms for leads
 #DONE    - list of leads
 #DONE    - detials for leads
-- chenge and delete leads
+#DONE - chenge and delete leads
 - convert leads to clients
 - create and delete clients
 - add teams 

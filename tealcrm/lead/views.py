@@ -26,9 +26,29 @@ def leads_delete(request,pk):
     lead = get_object_or_404(Lead,created_by=request.user, pk=pk)
     lead.delete()
 
-    messages.success(request, 'The lead was successfully deleted.')
+    messages.success(request, 'The lead was deleted successfully.')
 
     return redirect('leads_list')
+
+@login_required
+def leads_edit(request,pk):
+    lead = get_object_or_404(Lead,created_by=request.user, pk=pk)
+
+    if request.method == 'POST':
+        form = AddLeadForm(request.POST, instance=lead)
+
+        if form.is_valid():
+            form.save()
+
+            messages.success(request, 'The lead was edited successfully.')
+
+            return redirect('leads_list') 
+    else:
+        form = AddLeadForm(instance=lead)
+
+    return render(request, 'lead/leads_edit.html', {
+        'form': form
+    })
 
 @login_required
 def add_lead(request):
@@ -40,7 +60,7 @@ def add_lead(request):
             lead.created_by = request.user
             lead.save()
 
-            messages.success(request, 'The lead was successfully created.')
+            messages.success(request, 'The lead was created successfully.')
 
             return redirect('leads_list')
     
