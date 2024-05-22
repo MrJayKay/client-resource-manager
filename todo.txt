@@ -19,8 +19,10 @@ To Do List
 #DONE    - views and forms for leads
 #DONE    - list of leads
 #DONE    - detials for leads
-#DONE - chenge and delete leads
-- convert leads to clients
+#DONE - change and delete leads
+#DONE - convert leads to clients
+- show a list of clients
+- client detail page
 - create and delete clients
 - add teams 
 - payment solution / recurring payments
