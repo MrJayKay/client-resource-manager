@@ -21,7 +21,7 @@ To Do List
 #DONE    - detials for leads
 #DONE - change and delete leads
 #DONE - convert leads to clients
-- show a list of clients
+#DONE - show a list of clients
 - client detail page
 - create and delete clients
 - add teams 
