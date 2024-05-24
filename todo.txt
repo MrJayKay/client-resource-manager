@@ -22,7 +22,8 @@ To Do List
 #DONE - change and delete leads
 #DONE - convert leads to clients
 #DONE - show a list of clients
-- client detail page
+#DONE - client detail page
+- add clients
 - create and delete clients
 - add teams 
 - payment solution / recurring payments

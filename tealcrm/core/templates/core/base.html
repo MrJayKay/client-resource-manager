@@ -23,6 +23,7 @@
                         <button type="submit" class="py-4 px-6 rounded-xl bg-red-600 text-white ">Log Out</button>
                     </form>
                     <a href="{% url 'leads_list' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Leads</a>
+                    <a href="{% url 'clients_list' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Clients</a>
                     <a href="{% url 'dashboard' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Dashboard</a>
                     {% else %}
                     <a href="{% url 'login' %}" class="py-4 px-6 rounded-xl bg-teal-600 text-white ">Log in</a>
