@@ -37,6 +37,6 @@ def clients_add(request):
     else:
         form = AddClientForm()
 
-    return render(request, 'lead/clients_add.html', {
+    return render(request, 'client/clients_add.html', {
         'form': form
     })

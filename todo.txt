@@ -23,7 +23,7 @@ To Do List
 #DONE - convert leads to clients
 #DONE - show a list of clients
 #DONE - client detail page
-- add clients
+#DONE - add clients
 - create and delete clients
 - add teams 
 - payment solution / recurring payments
