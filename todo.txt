@@ -24,7 +24,11 @@ To Do List
 #DONE - show a list of clients
 #DONE - client detail page
 #DONE - add clients
-- create and delete clients
-- add teams 
+#DONE - change and delete clients
+- implement solutions for teams 
+    - create teams app
+    - add models for teams
+    - create new teams
+    - create members for teams
 - payment solution / recurring payments
 - deploy
