@@ -26,8 +26,8 @@ To Do List
 #DONE - add clients
 #DONE - change and delete clients
 - implement solutions for teams 
-    - create teams app
-    - add models for teams
+#DONE    - create teams app
+#DONE    - add models for teams
     - create new teams
     - create members for teams
 - payment solution / recurring payments
