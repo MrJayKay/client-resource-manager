@@ -28,5 +28,7 @@ To Do List
 - implement solutions for teams 
 #DONE    - create teams app
 #DONE    - add models for teams
+#DONE    - set team for new leads
+#DONE    - set team for new clients
 - payment solution / recurring payments
 - deploy
