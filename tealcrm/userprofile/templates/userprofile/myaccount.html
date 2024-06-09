@@ -5,5 +5,11 @@
 {% block content %}
 <div class="px-6 py-6">
     <h1 class="mb-6 text-xl">My account</h1>
+    <a href="{% url 'about' %}" class="text-white">About</a>
+    {% if request.user.is_authenticated %}
+    <form action="{% url 'logout' %}" method="post" class="inline-block">
+        {% csrf_token %}
+        <button type="submit" class="py-4 px-6 rounded-xl bg-red-600 text-white ">Log Out</button>
+    </form>
 </div>
 {% endblock %}
